@@ -37,8 +37,8 @@ services:
         target: /usr/share/logstash/config/logstash.yml
         read_only: true
       - type: bind
-        source: ./logstash/config/sqljdbc42.jar
-        target: /usr/share/logstash/logstash-core/lib/jars/sqljdbc42.jar
+        source: ./logstash/config/mssql-jdbc-8.2.2.jre11.jar
+        target: /usr/share/logstash/logstash-core/lib/jars/mssql-jdbc-8.2.2.jre11.jar
         read_only: true        
       - type: bind
         source: ./logstash/pipeline
