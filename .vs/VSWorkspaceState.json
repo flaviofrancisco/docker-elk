@@ -1,0 +1,9 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\logstash",
+    "\\logstash\\config"
+  ],
+  "SelectedNode": "\\logstash\\config\\mssql-jdbc-8.2.2.jre11.jar",
+  "PreviewInSolutionExplorer": false
+}
